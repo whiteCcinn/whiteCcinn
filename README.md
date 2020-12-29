@@ -20,7 +20,7 @@ Hello, I'm whiteCcinn, Chinese name is wen-hui CAI, nickname can call me "白菜
 ### Contact me
 
 - Github: <https://github.com/whiteCcinn>
-- Blog: <https://https://whiteccinn.github.io/>
+- Blog: <https://whiteccinn.github.io/>
 - QQ: <471113744@qq.com>
 
 ![Github Stats](https://github-readme-stats.vercel.app/api?username=whiteCcinn&show_icons=true&theme=dark&count_private=true)
