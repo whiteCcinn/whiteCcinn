@@ -160,6 +160,10 @@ Any technology in these lists I either use on a daily basis or I am familiar wit
   
   </p>
   
-![Github Stats](https://github-readme-stats.vercel.app/api?username=whiteCcinn&show_icons=true&theme=dark&count_private=true)
-
-![Most Used Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=whiteCcinn&theme=dark)
+<p>
+	<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=whiteCcinn&theme=dark" alt="logo" height="220"/>
+	<img src="https://github-readme-stats.vercel.app/api?username=whiteCcinn&show_icons=true&theme=dark&count_private=true" alt="logo" height="220"  />
+</p>
+<p>
+<img src="https://github-profile-trophy.vercel.app/?username=whiteCcinn&theme=flat&column=7&margin-w=10" alt="logo" height="160" align="center" />
+</p>
