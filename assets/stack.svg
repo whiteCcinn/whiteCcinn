@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="420" viewBox="0 0 880 420" role="img" aria-labelledby="title desc" xml:space="preserve">
+<title id="title">stackmon — ccinn&#39;s tech stack as a system monitor</title><desc id="desc">btop-style ASCII monitor. Cores (languages): rust, go, c, c++, php, python, js, erlang. Processes (data and infra, PID equals default port): kafka 9092, flink 8081, hadoop 9870, swoole 9501, redis 6379, mysql 3306, postgres 5432, mongodb 27017. dmesg tail (tooling): linux, bash, docker, nginx, git, react, electron, express, next.js, graphql, github actions, erlang.</desc>
+<defs><clipPath id="win"><rect width="880" height="420" rx="12"/></clipPath><radialGradient id="glow" cx="50%" cy="0%" r="75%"><stop offset="0" stop-color="#22d3ee" stop-opacity=".08"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".018"/></pattern><clipPath id="tail"><rect x="24" y="309" width="832" height="84"/></clipPath><style>text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono","DejaVu Sans Mono",monospace;font-size:14px;fill:#e6edf3;white-space:pre}.fg{fill:#e6edf3}.mu{fill:#8b949e}.dm{fill:#334055}.sh{fill:#3b4766}.cy{fill:#22d3ee}.vi{fill:#a78bfa}.pk{fill:#f472b6}.gr{fill:#3fb950}.am{fill:#e3b341}.b{font-weight:700}@keyframes blink{50%{opacity:0}}.blink{animation:blink 1.1s steps(1,end) infinite}@keyframes pulse{50%{opacity:.3}}.pulse{animation:pulse 2.4s ease-in-out infinite}@keyframes trace{to{stroke-dashoffset:-100}}.trace{animation:trace 7s linear infinite}@media (prefers-reduced-motion:reduce){.an,.fr,.blink,.pulse,.scroll,.trace{animation:none!important}.cover,.tr{display:none}}@keyframes st{0%{opacity:1}8.333%{opacity:0}100%{opacity:0}}.st{opacity:0;animation:st 6s steps(1,end) infinite}.st-0{opacity:1}.st-1{animation-delay:-5.5s}.st-2{animation-delay:-5s}.st-3{animation-delay:-4.5s}.st-4{animation-delay:-4s}.st-5{animation-delay:-3.5s}.st-6{animation-delay:-3s}.st-7{animation-delay:-2.5s}.st-8{animation-delay:-2s}.st-9{animation-delay:-1.5s}.st-10{animation-delay:-1s}.st-11{animation-delay:-0.5s}.an{animation-duration:10s;animation-timing-function:linear;animation-iteration-count:infinite;animation-fill-mode:both}@keyframes k0{0%{transform:translateY(0px);animation-timing-function:steps(1,end)}12.5%{transform:translateY(21px);animation-timing-function:steps(1,end)}25%{transform:translateY(42px);animation-timing-function:steps(1,end)}37.5%{transform:translateY(63px);animation-timing-function:steps(1,end)}50%{transform:translateY(84px);animation-timing-function:steps(1,end)}62.5%{transform:translateY(105px);animation-timing-function:steps(1,end)}75%{transform:translateY(126px);animation-timing-function:steps(1,end)}87.5%{transform:translateY(147px);animation-timing-function:steps(1,end)}100%{transform:translateY(147px)}}.k0{animation-name:k0}@keyframes k1{0%{transform:translateY(0px);animation-timing-function:steps(1,end)}10%{transform:translateY(-20px);animation-timing-function:steps(1,end)}20%{transform:translateY(-40px);animation-timing-function:steps(1,end)}30%{transform:translateY(-60px);animation-timing-function:steps(1,end)}40%{transform:translateY(-80px);animation-timing-function:steps(1,end)}50%{transform:translateY(-100px);animation-timing-function:steps(1,end)}60%{transform:translateY(-120px);animation-timing-function:steps(1,end)}70%{transform:translateY(-140px);animation-timing-function:steps(1,end)}80%{transform:translateY(-160px);animation-timing-function:steps(1,end)}90%{transform:translateY(-180px);animation-timing-function:steps(1,end)}100%{transform:translateY(-180px)}}.k1{animation-name:k1}</style></defs>
+<g clip-path="url(#win)"><rect width="880" height="420" fill="#0b0f17"/><rect width="880" height="36" fill="#111826"/><path d="M0 36.5H880" stroke="#253047"/></g><circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/><text x="440" y="23" text-anchor="middle" class="mu" style="font-size:12px">stackmon — ccinn@neural-core</text><circle cx="818" cy="18" r="4" class="gr pulse"/><text x="828" y="22" class="mu" style="font-size:12px">live</text>
+<rect x="20" y="52" width="412" height="222" rx="7" fill="none" stroke="#253047"/><rect x="30" y="43" width="171.6" height="18" fill="#0b0f17"/><text x="36" y="57" textLength="159.6" lengthAdjust="spacing"><tspan class="cy">¹</tspan><tspan class="fg b"> cores</tspan><tspan class="mu"> · languages</tspan></text>
+<rect x="448" y="52" width="412" height="222" rx="7" fill="none" stroke="#253047"/><rect x="458" y="43" width="289.2" height="18" fill="#0b0f17"/><text x="464" y="57" textLength="277.2" lengthAdjust="spacing"><tspan class="cy">²</tspan><tspan class="fg b"> procs</tspan><tspan class="mu"> · data &amp; infra · pid≡port</tspan></text>
+<rect x="20" y="292" width="840" height="112" rx="7" fill="none" stroke="#253047"/><rect x="30" y="283" width="154.8" height="18" fill="#0b0f17"/><text x="36" y="297" textLength="142.8" lengthAdjust="spacing"><tspan class="cy">³</tspan><tspan class="fg b"> dmesg</tspan><tspan class="mu"> · tooling</tspan></text>
+<text x="36" y="88" textLength="33.6" lengthAdjust="spacing" class="fg">rust</text>
+<text x="36" y="110" textLength="16.8" lengthAdjust="spacing" class="fg">go</text>
+<text x="36" y="132" textLength="8.4" lengthAdjust="spacing" class="fg">c</text>
+<text x="36" y="154" textLength="25.2" lengthAdjust="spacing" class="fg">c++</text>
+<text x="36" y="176" textLength="25.2" lengthAdjust="spacing" class="fg">php</text>
+<text x="36" y="198" textLength="50.4" lengthAdjust="spacing" class="fg">python</text>
+<text x="36" y="220" textLength="16.8" lengthAdjust="spacing" class="fg">js</text>
+<text x="36" y="242" textLength="50.4" lengthAdjust="spacing" class="fg">erlang</text>
+<g class="an k0"><rect x="456" y="90" width="396" height="20" rx="3" fill="#a78bfa" fill-opacity=".13"/><rect x="456" y="90" width="2" height="20" class="vi"/></g>
+<text x="464" y="84" textLength="319.2" lengthAdjust="spacing" class="mu">PID    NAME      STATE     CPU%    MEM</text>
+<text x="464" y="105" textLength="336" lengthAdjust="spacing"><tspan class="am">9092   </tspan><tspan class="fg">kafka     </tspan><tspan class="gr">● </tspan><tspan class="fg">run </tspan>            <tspan class="mu"> 1.2G</tspan></text>
+<text x="464" y="126" textLength="336" lengthAdjust="spacing"><tspan class="am">8081   </tspan><tspan class="fg">flink     </tspan><tspan class="gr">● </tspan><tspan class="fg">run </tspan>            <tspan class="mu"> 2.0G</tspan></text>
+<text x="464" y="147" textLength="336" lengthAdjust="spacing"><tspan class="am">9870   </tspan><tspan class="fg">hadoop    </tspan><tspan class="dm">○ </tspan><tspan class="mu">idle</tspan>            <tspan class="mu"> 768M</tspan></text>
+<text x="464" y="168" textLength="336" lengthAdjust="spacing"><tspan class="am">9501   </tspan><tspan class="fg">swoole    </tspan><tspan class="gr">● </tspan><tspan class="fg">run </tspan>            <tspan class="mu"> 256M</tspan></text>
+<text x="464" y="189" textLength="336" lengthAdjust="spacing"><tspan class="am">6379   </tspan><tspan class="fg">redis     </tspan><tspan class="gr">● </tspan><tspan class="fg">run </tspan>            <tspan class="mu">  64M</tspan></text>
+<text x="464" y="210" textLength="336" lengthAdjust="spacing"><tspan class="am">3306   </tspan><tspan class="fg">mysql     </tspan><tspan class="gr">● </tspan><tspan class="fg">run </tspan>            <tspan class="mu"> 512M</tspan></text>
+<text x="464" y="231" textLength="336" lengthAdjust="spacing"><tspan class="am">5432   </tspan><tspan class="fg">postgres  </tspan><tspan class="dm">○ </tspan><tspan class="mu">idle</tspan>            <tspan class="mu"> 128M</tspan></text>
+<text x="464" y="252" textLength="336" lengthAdjust="spacing"><tspan class="am">27017  </tspan><tspan class="fg">mongodb   </tspan><tspan class="dm">○ </tspan><tspan class="mu">idle</tspan>            <tspan class="mu"> 384M</tspan></text>
+<g class="fr st st-0"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 87%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■■</tspan>  <tspan class="fg"> 99%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="dm">■■■■</tspan>  <tspan class="fg"> 78%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■</tspan><tspan class="dm">■■■■■■■■</tspan>  <tspan class="fg"> 61%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 91%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 57%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■</tspan><tspan class="dm">■■■■■■■■</tspan>  <tspan class="fg"> 61%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■■</tspan>  <tspan class="fg"> 36%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">21.1</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">21.7</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.5</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">35.5</tspan></text>
+<text x="699.2" y="189" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">6.8</tspan></text>
+<text x="699.2" y="210" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">9.3</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.1</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">2.1</tspan></text></g>
+<g class="fr st st-1"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 92%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■</tspan><tspan class="dm">■</tspan>  <tspan class="fg"> 95%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 72%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■</tspan><tspan class="dm">■■■■■■■■</tspan>  <tspan class="fg"> 61%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 91%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■</tspan><tspan class="dm">■■■■■■■</tspan>  <tspan class="fg"> 66%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 56%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■■■</tspan>  <tspan class="fg"> 32%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">27.2</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">21.4</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.0</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">30.9</tspan></text>
+<text x="699.2" y="189" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">6.0</tspan></text>
+<text x="699.2" y="210" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">7.5</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.0</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.3</tspan></text></g>
+<g class="fr st st-2"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 92%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■</tspan><tspan class="dm">■</tspan>  <tspan class="fg"> 97%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 69%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■</tspan><tspan class="dm">■■■■■■■■</tspan>  <tspan class="fg"> 59%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■</tspan><tspan class="dm">■</tspan>  <tspan class="fg"> 93%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 68%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 56%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■■■</tspan>  <tspan class="fg"> 32%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">27.9</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">22.5</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.8</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">24.6</tspan></text>
+<text x="699.2" y="189" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">4.4</tspan></text>
+<text x="699.2" y="210" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">8.4</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.1</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.3</tspan></text></g>
+<g class="fr st st-3"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■</tspan><tspan class="dm">■</tspan>  <tspan class="fg"> 94%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■</tspan><tspan class="dm">■</tspan>  <tspan class="fg"> 94%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 68%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■</tspan><tspan class="dm">■■■■■■■</tspan>  <tspan class="fg"> 63%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■■</tspan>  <tspan class="fg"> 99%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■</tspan><tspan class="dm">■■■■■■■</tspan>  <tspan class="fg"> 64%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 55%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■■■</tspan>  <tspan class="fg"> 28%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">28.4</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">21.6</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.3</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">22.3</tspan></text>
+<text x="699.2" y="189" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">6.4</tspan></text>
+<text x="690.8" y="210" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">11.7</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.2</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.0</tspan></text></g>
+<g class="fr st st-4"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 92%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 86%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■</tspan><tspan class="dm">■■■■■■■</tspan>  <tspan class="fg"> 64%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■</tspan><tspan class="dm">■■■■■■■</tspan>  <tspan class="fg"> 67%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■■</tspan>  <tspan class="fg"> 99%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■</tspan><tspan class="dm">■■■■■■■■</tspan>  <tspan class="fg"> 61%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■</tspan>  <tspan class="fg"> 51%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■■■■</tspan>  <tspan class="fg"> 27%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">29.5</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">16.6</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.5</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">20.1</tspan></text>
+<text x="699.2" y="189" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">8.7</tspan></text>
+<text x="690.8" y="210" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">12.5</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.5</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.0</tspan></text></g>
+<g class="fr st st-5"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 92%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 83%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■</tspan><tspan class="dm">■■■■■■■</tspan>  <tspan class="fg"> 64%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 69%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■■</tspan>  <tspan class="fg"> 99%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■</tspan><tspan class="dm">■■■■■■■■</tspan>  <tspan class="fg"> 59%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■</tspan>  <tspan class="fg"> 48%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■■■</tspan>  <tspan class="fg"> 30%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">25.3</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">14.3</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.4</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">22.1</tspan></text>
+<text x="699.2" y="189" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">9.0</tspan></text>
+<text x="690.8" y="210" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">13.6</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.4</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.8</tspan></text></g>
+<g class="fr st st-6"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 88%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 84%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 69%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 70%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■■</tspan>  <tspan class="fg"> 99%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 55%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■</tspan>  <tspan class="fg"> 45%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■■■</tspan>  <tspan class="fg"> 31%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">22.3</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">12.8</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.3</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">26.4</tspan></text>
+<text x="699.2" y="189" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">9.4</tspan></text>
+<text x="690.8" y="210" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">16.0</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.3</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.0</tspan></text></g>
+<g class="fr st st-7"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="dm">■■■■</tspan>  <tspan class="fg"> 80%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 86%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 70%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 71%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■■</tspan>  <tspan class="fg"> 99%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■</tspan>  <tspan class="fg"> 52%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■</tspan>  <tspan class="fg"> 48%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■■</tspan>  <tspan class="fg"> 34%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">17.8</tspan></text>
+<text x="699.2" y="126" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">9.7</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.4</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">31.9</tspan></text>
+<text x="690.8" y="189" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">12.1</tspan></text>
+<text x="690.8" y="210" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">15.5</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.1</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.9</tspan></text></g>
+<g class="fr st st-8"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 83%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 86%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="dm">■■■■</tspan>  <tspan class="fg"> 78%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 71%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■</tspan><tspan class="dm">■</tspan>  <tspan class="fg"> 94%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 53%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■</tspan>  <tspan class="fg"> 48%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■</tspan>  <tspan class="fg"> 39%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">13.9</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">12.3</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.8</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">37.1</tspan></text>
+<text x="690.8" y="189" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">12.4</tspan></text>
+<text x="690.8" y="210" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">15.3</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.7</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.1</tspan></text></g>
+<g class="fr st st-9"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="dm">■■■■</tspan>  <tspan class="fg"> 80%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 87%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="dm">■■■■</tspan>  <tspan class="fg"> 81%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 69%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 92%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■</tspan>  <tspan class="fg"> 49%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 53%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■</tspan>  <tspan class="fg"> 43%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">14.1</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">14.0</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.2</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">41.7</tspan></text>
+<text x="690.8" y="189" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">11.0</tspan></text>
+<text x="690.8" y="210" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">14.1</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.0</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.5</tspan></text></g>
+<g class="fr st st-10"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■</tspan><tspan class="dm">■■■■■</tspan>  <tspan class="fg"> 77%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 89%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="dm">■■■■</tspan>  <tspan class="fg"> 81%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■</tspan><tspan class="dm">■■■■■■</tspan>  <tspan class="fg"> 70%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■</tspan><tspan class="dm">■■</tspan>  <tspan class="fg"> 90%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 53%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 56%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■</tspan>  <tspan class="fg"> 42%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">14.9</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">14.9</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.1</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">41.1</tspan></text>
+<text x="699.2" y="189" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">9.4</tspan></text>
+<text x="690.8" y="210" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">11.3</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.1</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">1.2</tspan></text></g>
+<g class="fr st st-11"><text x="103.2" y="88" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 84%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="110" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■■■</tspan><tspan class="dm">■</tspan>  <tspan class="fg"> 94%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="132" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■</tspan><tspan class="dm">■■■■■</tspan>  <tspan class="fg"> 76%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="154" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■</tspan><tspan class="dm">■■■■■■■</tspan>  <tspan class="fg"> 64%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="176" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■■■■■■</tspan><tspan class="pk">■</tspan><tspan class="dm">■■■</tspan>  <tspan class="fg"> 86%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="198" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 56%</tspan> <tspan class="gr">↑</tspan></text>
+<text x="103.2" y="220" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■■■</tspan><tspan class="vi">■</tspan><tspan class="dm">■■■■■■■■■</tspan>  <tspan class="fg"> 55%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="103.2" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">■■■■■■■■</tspan><tspan class="dm">■■■■■■■■■■■■</tspan>  <tspan class="fg"> 40%</tspan> <tspan class="pk">↓</tspan></text>
+<text x="690.8" y="105" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">19.0</tspan></text>
+<text x="690.8" y="126" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">19.6</tspan></text>
+<text x="699.2" y="147" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.7</tspan></text>
+<text x="690.8" y="168" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">38.8</tspan></text>
+<text x="699.2" y="189" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">8.0</tspan></text>
+<text x="699.2" y="210" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">7.7</tspan></text>
+<text x="699.2" y="231" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">0.6</tspan></text>
+<text x="699.2" y="252" textLength="25.2" lengthAdjust="spacing"><tspan class="dm">2.0</tspan></text></g>
+<g clip-path="url(#tail)"><g class="an k1"><text x="36" y="326" textLength="495.6" lengthAdjust="spacing"><tspan class="dm">[    0.000000] </tspan><tspan class="cy">kernel: </tspan><tspan class="fg">Linux booted · login shell /bin/bash</tspan></text>
+<text x="36" y="346" textLength="646.8" lengthAdjust="spacing"><tspan class="dm">[    0.041337] </tspan><tspan class="cy">docker: </tspan><tspan class="fg">12 containers healthy (hadoop · hive · impala · flink)</tspan></text>
+<text x="36" y="366" textLength="487.2" lengthAdjust="spacing"><tspan class="dm">[    0.064212] </tspan><tspan class="cy">nginx: </tspan><tspan class="fg">reverse proxy up · listening on :443</tspan></text>
+<text x="36" y="386" textLength="462" lengthAdjust="spacing"><tspan class="dm">[    0.087123] </tspan><tspan class="cy">git: </tspan><tspan class="fg">pre-commit hooks armed by husky-php</tspan></text>
+<text x="36" y="406" textLength="537.6" lengthAdjust="spacing"><tspan class="dm">[    0.102400] </tspan><tspan class="cy">node: </tspan><tspan class="fg">react · electron · express · next.js loaded</tspan></text>
+<text x="36" y="426" textLength="420" lengthAdjust="spacing"><tspan class="dm">[    0.131072] </tspan><tspan class="cy">graphql: </tspan><tspan class="fg">schema stitched · 0 errors</tspan></text>
+<text x="36" y="446" textLength="436.8" lengthAdjust="spacing"><tspan class="dm">[    0.180000] </tspan><tspan class="cy">ci: </tspan><tspan class="fg">github actions: all checks passed</tspan></text>
+<text x="36" y="466" textLength="512.4" lengthAdjust="spacing"><tspan class="dm">[    0.262144] </tspan><tspan class="cy">llm: </tspan><tspan class="fg">agent attached · pair-programming mode on</tspan></text>
+<text x="36" y="486" textLength="470.4" lengthAdjust="spacing"><tspan class="dm">[    0.333333] </tspan><tspan class="cy">erlang: </tspan><tspan class="fg">supervisor tree up · let it crash</tspan></text>
+<text x="36" y="506" textLength="554.4" lengthAdjust="spacing"><tspan class="dm">[    0.420000] </tspan><tspan class="cy">systemd: </tspan><tspan class="fg">ccinn.service: active (running) since 2015</tspan></text>
+<text x="36" y="526" textLength="495.6" lengthAdjust="spacing"><tspan class="dm">[    0.000000] </tspan><tspan class="cy">kernel: </tspan><tspan class="fg">Linux booted · login shell /bin/bash</tspan></text>
+<text x="36" y="546" textLength="646.8" lengthAdjust="spacing"><tspan class="dm">[    0.041337] </tspan><tspan class="cy">docker: </tspan><tspan class="fg">12 containers healthy (hadoop · hive · impala · flink)</tspan></text>
+<text x="36" y="566" textLength="487.2" lengthAdjust="spacing"><tspan class="dm">[    0.064212] </tspan><tspan class="cy">nginx: </tspan><tspan class="fg">reverse proxy up · listening on :443</tspan></text>
+<text x="36" y="586" textLength="462" lengthAdjust="spacing"><tspan class="dm">[    0.087123] </tspan><tspan class="cy">git: </tspan><tspan class="fg">pre-commit hooks armed by husky-php</tspan></text>
+<text x="36" y="606" textLength="537.6" lengthAdjust="spacing"><tspan class="dm">[    0.102400] </tspan><tspan class="cy">node: </tspan><tspan class="fg">react · electron · express · next.js loaded</tspan></text>
+<text x="36" y="626" textLength="420" lengthAdjust="spacing"><tspan class="dm">[    0.131072] </tspan><tspan class="cy">graphql: </tspan><tspan class="fg">schema stitched · 0 errors</tspan></text>
+<text x="36" y="646" textLength="436.8" lengthAdjust="spacing"><tspan class="dm">[    0.180000] </tspan><tspan class="cy">ci: </tspan><tspan class="fg">github actions: all checks passed</tspan></text>
+<text x="36" y="666" textLength="512.4" lengthAdjust="spacing"><tspan class="dm">[    0.262144] </tspan><tspan class="cy">llm: </tspan><tspan class="fg">agent attached · pair-programming mode on</tspan></text>
+<text x="36" y="686" textLength="470.4" lengthAdjust="spacing"><tspan class="dm">[    0.333333] </tspan><tspan class="cy">erlang: </tspan><tspan class="fg">supervisor tree up · let it crash</tspan></text>
+<text x="36" y="706" textLength="554.4" lengthAdjust="spacing"><tspan class="dm">[    0.420000] </tspan><tspan class="cy">systemd: </tspan><tspan class="fg">ccinn.service: active (running) since 2015</tspan></text></g></g>
+<g clip-path="url(#win)"><rect width="880" height="420" fill="url(#glow)"/><rect width="880" height="420" fill="url(#scan)"/></g><rect x=".5" y=".5" width="879" height="419" rx="11.5" fill="none" stroke="#253047"/>
+</svg>

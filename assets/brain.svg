@@ -1,0 +1,470 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="416" viewBox="0 0 880 416" role="img" aria-labelledby="title desc" xml:space="preserve">
+<title id="title">ccinn.forward() — live inference</title><desc id="desc">Animated ASCII dashboard: signals propagate through a 4-5-5-2 neural network from rust, go, c/c++ and php to build and ship; eight causal attention heads cycle over &#39;to know but not to do is not to know&#39;; a sampler generates sentences token by token with top-3 probabilities.</desc>
+<defs><clipPath id="win"><rect width="880" height="416" rx="12"/></clipPath><radialGradient id="glow" cx="50%" cy="0%" r="75%"><stop offset="0" stop-color="#22d3ee" stop-opacity=".08"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient><pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" fill-opacity=".018"/></pattern><clipPath id="c1"><rect x="40.8" y="375.5" width="319.2" height="19.5"/></clipPath><clipPath id="c2"><rect x="40.8" y="375.5" width="361.2" height="19.5"/></clipPath><clipPath id="c3"><rect x="40.8" y="375.5" width="487.2" height="19.5"/></clipPath><style>text{font-family:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono","DejaVu Sans Mono",monospace;font-size:14px;fill:#e6edf3;white-space:pre}.fg{fill:#e6edf3}.mu{fill:#8b949e}.dm{fill:#334055}.sh{fill:#3b4766}.cy{fill:#22d3ee}.vi{fill:#a78bfa}.pk{fill:#f472b6}.gr{fill:#3fb950}.am{fill:#e3b341}.b{font-weight:700}@keyframes blink{50%{opacity:0}}.blink{animation:blink 1.1s steps(1,end) infinite}@keyframes pulse{50%{opacity:.3}}.pulse{animation:pulse 2.4s ease-in-out infinite}@keyframes trace{to{stroke-dashoffset:-100}}.trace{animation:trace 7s linear infinite}@media (prefers-reduced-motion:reduce){.an,.fr,.blink,.pulse,.scroll,.trace{animation:none!important}.cover,.tr{display:none}}.h1{fill:#4c3d8f}.h2{fill:#7c5cf0}.h3{fill:#c084fc}.h4{fill:#f472b6}@keyframes nx{0%{opacity:1}2.5%{opacity:0}100%{opacity:0}}.nx{opacity:0;animation:nx 4s steps(1,end) infinite}.nx-0{opacity:1}.nx-1{animation-delay:-3.9s}.nx-2{animation-delay:-3.8s}.nx-3{animation-delay:-3.7s}.nx-4{animation-delay:-3.6s}.nx-5{animation-delay:-3.5s}.nx-6{animation-delay:-3.4s}.nx-7{animation-delay:-3.3s}.nx-8{animation-delay:-3.2s}.nx-9{animation-delay:-3.1s}.nx-10{animation-delay:-3s}.nx-11{animation-delay:-2.9s}.nx-12{animation-delay:-2.8s}.nx-13{animation-delay:-2.7s}.nx-14{animation-delay:-2.6s}.nx-15{animation-delay:-2.5s}.nx-16{animation-delay:-2.4s}.nx-17{animation-delay:-2.3s}.nx-18{animation-delay:-2.2s}.nx-19{animation-delay:-2.1s}.nx-20{animation-delay:-2s}.nx-21{animation-delay:-1.9s}.nx-22{animation-delay:-1.8s}.nx-23{animation-delay:-1.7s}.nx-24{animation-delay:-1.6s}.nx-25{animation-delay:-1.5s}.nx-26{animation-delay:-1.4s}.nx-27{animation-delay:-1.3s}.nx-28{animation-delay:-1.2s}.nx-29{animation-delay:-1.1s}.nx-30{animation-delay:-1s}.nx-31{animation-delay:-0.9s}.nx-32{animation-delay:-0.8s}.nx-33{animation-delay:-0.7s}.nx-34{animation-delay:-0.6s}.nx-35{animation-delay:-0.5s}.nx-36{animation-delay:-0.4s}.nx-37{animation-delay:-0.3s}.nx-38{animation-delay:-0.2s}.nx-39{animation-delay:-0.1s}@keyframes hd{0%{opacity:1}12.5%{opacity:0}100%{opacity:0}}.hd{opacity:0;animation:hd 16s steps(1,end) infinite}.hd-0{opacity:1}.hd-1{animation-delay:-14s}.hd-2{animation-delay:-12s}.hd-3{animation-delay:-10s}.hd-4{animation-delay:-8s}.hd-5{animation-delay:-6s}.hd-6{animation-delay:-4s}.hd-7{animation-delay:-2s}.an{animation-duration:18s;animation-timing-function:linear;animation-iteration-count:infinite;animation-fill-mode:both}@keyframes k0{0%{transform:translateX(0px);animation-timing-function:steps(1,end)}3.333%{transform:translateX(16.8px);animation-timing-function:steps(1,end)}5.111%{transform:translateX(58.8px);animation-timing-function:steps(1,end)}6.889%{transform:translateX(92.4px);animation-timing-function:steps(1,end)}8.667%{transform:translateX(126px);animation-timing-function:steps(1,end)}10.444%{transform:translateX(151.2px);animation-timing-function:steps(1,end)}12.222%{transform:translateX(176.4px);animation-timing-function:steps(1,end)}14%{transform:translateX(201.6px);animation-timing-function:steps(1,end)}15.778%{transform:translateX(235.2px);animation-timing-function:steps(1,end)}17.556%{transform:translateX(260.4px);animation-timing-function:steps(1,end)}19.333%{transform:translateX(302.4px);animation-timing-function:steps(1,end)}21.111%{transform:translateX(310.8px);animation-timing-function:steps(1,end)}100%{transform:translateX(310.8px)}}.k0{animation-name:k0}@keyframes k1{0%{opacity:0}0.833%{opacity:1}32.5%{opacity:1}33.333%{opacity:0}100%{opacity:0}}.k1{animation-name:k1}@keyframes k2{0%{opacity:0}1.667%{opacity:0}1.889%{opacity:1}3%{opacity:1}3.222%{opacity:0}100%{opacity:0}}.k2{animation-name:k2}@keyframes k3{0%{opacity:0}3.444%{opacity:0}3.667%{opacity:1}4.778%{opacity:1}5%{opacity:0}100%{opacity:0}}.k3{animation-name:k3}@keyframes k4{0%{opacity:0}5.222%{opacity:0}5.444%{opacity:1}6.556%{opacity:1}6.778%{opacity:0}100%{opacity:0}}.k4{animation-name:k4}@keyframes k5{0%{opacity:0}7%{opacity:0}7.222%{opacity:1}8.333%{opacity:1}8.556%{opacity:0}100%{opacity:0}}.k5{animation-name:k5}@keyframes k6{0%{opacity:0}8.778%{opacity:0}9%{opacity:1}10.111%{opacity:1}10.333%{opacity:0}100%{opacity:0}}.k6{animation-name:k6}@keyframes k7{0%{opacity:0}10.556%{opacity:0}10.778%{opacity:1}11.889%{opacity:1}12.111%{opacity:0}100%{opacity:0}}.k7{animation-name:k7}@keyframes k8{0%{opacity:0}12.333%{opacity:0}12.556%{opacity:1}13.667%{opacity:1}13.889%{opacity:0}100%{opacity:0}}.k8{animation-name:k8}@keyframes k9{0%{opacity:0}14.111%{opacity:0}14.333%{opacity:1}15.444%{opacity:1}15.667%{opacity:0}100%{opacity:0}}.k9{animation-name:k9}@keyframes k10{0%{opacity:0}15.889%{opacity:0}16.111%{opacity:1}17.222%{opacity:1}17.444%{opacity:0}100%{opacity:0}}.k10{animation-name:k10}@keyframes k11{0%{opacity:0}17.667%{opacity:0}17.889%{opacity:1}19%{opacity:1}19.222%{opacity:0}100%{opacity:0}}.k11{animation-name:k11}@keyframes k12{0%{opacity:0}19.444%{opacity:0}19.667%{opacity:1}20.778%{opacity:1}21%{opacity:0}100%{opacity:0}}.k12{animation-name:k12}@keyframes k13{0%{opacity:0}21.222%{opacity:0}21.667%{opacity:1}32.5%{opacity:1}32.944%{opacity:0}100%{opacity:0}}.k13{animation-name:k13}@keyframes k14{0%{transform:translateX(0px)}33.333%{transform:translateX(0px);animation-timing-function:steps(1,end)}36.667%{transform:translateX(33.6px);animation-timing-function:steps(1,end)}38.444%{transform:translateX(67.2px);animation-timing-function:steps(1,end)}40.222%{transform:translateX(75.6px);animation-timing-function:steps(1,end)}42%{transform:translateX(117.6px);animation-timing-function:steps(1,end)}43.778%{transform:translateX(184.8px);animation-timing-function:steps(1,end)}45.556%{transform:translateX(235.2px);animation-timing-function:steps(1,end)}47.333%{transform:translateX(243.6px);animation-timing-function:steps(1,end)}49.111%{transform:translateX(285.6px);animation-timing-function:steps(1,end)}50.889%{transform:translateX(344.4px);animation-timing-function:steps(1,end)}52.667%{transform:translateX(352.8px);animation-timing-function:steps(1,end)}100%{transform:translateX(352.8px)}}.k14{animation-name:k14}@keyframes k15{0%{opacity:0}33.333%{opacity:0}34.167%{opacity:1}64.056%{opacity:1}64.889%{opacity:0}100%{opacity:0}}.k15{animation-name:k15}@keyframes k16{0%{opacity:0}35%{opacity:0}35.222%{opacity:1}36.333%{opacity:1}36.556%{opacity:0}100%{opacity:0}}.k16{animation-name:k16}@keyframes k17{0%{opacity:0}36.778%{opacity:0}37%{opacity:1}38.111%{opacity:1}38.333%{opacity:0}100%{opacity:0}}.k17{animation-name:k17}@keyframes k18{0%{opacity:0}38.556%{opacity:0}38.778%{opacity:1}39.889%{opacity:1}40.111%{opacity:0}100%{opacity:0}}.k18{animation-name:k18}@keyframes k19{0%{opacity:0}40.333%{opacity:0}40.556%{opacity:1}41.667%{opacity:1}41.889%{opacity:0}100%{opacity:0}}.k19{animation-name:k19}@keyframes k20{0%{opacity:0}42.111%{opacity:0}42.333%{opacity:1}43.444%{opacity:1}43.667%{opacity:0}100%{opacity:0}}.k20{animation-name:k20}@keyframes k21{0%{opacity:0}43.889%{opacity:0}44.111%{opacity:1}45.222%{opacity:1}45.444%{opacity:0}100%{opacity:0}}.k21{animation-name:k21}@keyframes k22{0%{opacity:0}45.667%{opacity:0}45.889%{opacity:1}47%{opacity:1}47.222%{opacity:0}100%{opacity:0}}.k22{animation-name:k22}@keyframes k23{0%{opacity:0}47.444%{opacity:0}47.667%{opacity:1}48.778%{opacity:1}49%{opacity:0}100%{opacity:0}}.k23{animation-name:k23}@keyframes k24{0%{opacity:0}49.222%{opacity:0}49.444%{opacity:1}50.556%{opacity:1}50.778%{opacity:0}100%{opacity:0}}.k24{animation-name:k24}@keyframes k25{0%{opacity:0}51%{opacity:0}51.222%{opacity:1}52.333%{opacity:1}52.556%{opacity:0}100%{opacity:0}}.k25{animation-name:k25}@keyframes k26{0%{opacity:0}52.778%{opacity:0}53.222%{opacity:1}64.056%{opacity:1}64.5%{opacity:0}100%{opacity:0}}.k26{animation-name:k26}@keyframes k27{0%{transform:translateX(0px)}64.889%{transform:translateX(0px);animation-timing-function:steps(1,end)}68.222%{transform:translateX(92.4px);animation-timing-function:steps(1,end)}70%{transform:translateX(159.6px);animation-timing-function:steps(1,end)}71.778%{transform:translateX(193.2px);animation-timing-function:steps(1,end)}73.556%{transform:translateX(252px);animation-timing-function:steps(1,end)}75.333%{transform:translateX(294px);animation-timing-function:steps(1,end)}77.111%{transform:translateX(336px);animation-timing-function:steps(1,end)}78.889%{transform:translateX(378px);animation-timing-function:steps(1,end)}80.667%{transform:translateX(411.6px);animation-timing-function:steps(1,end)}82.444%{transform:translateX(436.8px);animation-timing-function:steps(1,end)}84.222%{transform:translateX(453.6px);animation-timing-function:steps(1,end)}86%{transform:translateX(470.4px);animation-timing-function:steps(1,end)}87.778%{transform:translateX(478.8px);animation-timing-function:steps(1,end)}100%{transform:translateX(478.8px)}}.k27{animation-name:k27}@keyframes k28{0%{opacity:0}64.889%{opacity:0}65.722%{opacity:1}99.167%{opacity:1}100%{opacity:0}}.k28{animation-name:k28}@keyframes k29{0%{opacity:0}66.556%{opacity:0}66.778%{opacity:1}67.889%{opacity:1}68.111%{opacity:0}100%{opacity:0}}.k29{animation-name:k29}@keyframes k30{0%{opacity:0}68.333%{opacity:0}68.556%{opacity:1}69.667%{opacity:1}69.889%{opacity:0}100%{opacity:0}}.k30{animation-name:k30}@keyframes k31{0%{opacity:0}70.111%{opacity:0}70.333%{opacity:1}71.444%{opacity:1}71.667%{opacity:0}100%{opacity:0}}.k31{animation-name:k31}@keyframes k32{0%{opacity:0}71.889%{opacity:0}72.111%{opacity:1}73.222%{opacity:1}73.444%{opacity:0}100%{opacity:0}}.k32{animation-name:k32}@keyframes k33{0%{opacity:0}73.667%{opacity:0}73.889%{opacity:1}75%{opacity:1}75.222%{opacity:0}100%{opacity:0}}.k33{animation-name:k33}@keyframes k34{0%{opacity:0}75.444%{opacity:0}75.667%{opacity:1}76.778%{opacity:1}77%{opacity:0}100%{opacity:0}}.k34{animation-name:k34}@keyframes k35{0%{opacity:0}77.222%{opacity:0}77.444%{opacity:1}78.556%{opacity:1}78.778%{opacity:0}100%{opacity:0}}.k35{animation-name:k35}@keyframes k36{0%{opacity:0}79%{opacity:0}79.222%{opacity:1}80.333%{opacity:1}80.556%{opacity:0}100%{opacity:0}}.k36{animation-name:k36}@keyframes k37{0%{opacity:0}80.778%{opacity:0}81%{opacity:1}82.111%{opacity:1}82.333%{opacity:0}100%{opacity:0}}.k37{animation-name:k37}@keyframes k38{0%{opacity:0}82.556%{opacity:0}82.778%{opacity:1}83.889%{opacity:1}84.111%{opacity:0}100%{opacity:0}}.k38{animation-name:k38}@keyframes k39{0%{opacity:0}84.333%{opacity:0}84.556%{opacity:1}85.667%{opacity:1}85.889%{opacity:0}100%{opacity:0}}.k39{animation-name:k39}@keyframes k40{0%{opacity:0}86.111%{opacity:0}86.333%{opacity:1}87.444%{opacity:1}87.667%{opacity:0}100%{opacity:0}}.k40{animation-name:k40}@keyframes k41{0%{opacity:0}87.889%{opacity:0}88.333%{opacity:1}99.167%{opacity:1}99.611%{opacity:0}100%{opacity:0}}.k41{animation-name:k41}</style></defs>
+<g clip-path="url(#win)"><rect width="880" height="416" fill="#0b0f17"/><rect width="880" height="36" fill="#111826"/><path d="M0 36.5H880" stroke="#253047"/></g><circle cx="22" cy="18" r="6" fill="#ff5f57"/><circle cx="42" cy="18" r="6" fill="#febc2e"/><circle cx="62" cy="18" r="6" fill="#28c840"/><text x="440" y="23" text-anchor="middle" class="mu" style="font-size:12px">ccinn.forward() — live inference</text><circle cx="818" cy="18" r="4" class="gr pulse"/><text x="828" y="22" class="mu" style="font-size:12px">live</text>
+<text x="24" y="62" textLength="310.8" lengthAdjust="spacing"><tspan class="cy">▌ </tspan><tspan class="fg b">forward pass</tspan><tspan class="mu">  4→5→5→2 · relu · fp16</tspan></text>
+<text x="548" y="62" textLength="92.4" lengthAdjust="spacing"><tspan class="cy">▌ </tspan><tspan class="fg b">attention</tspan></text>
+<path d="M520 50V312" stroke="#253047" stroke-dasharray="2 4"/>
+<path d="M112.2 102.5L187.8 102.5M112.2 102.5L187.8 147.5M112.2 102.5L187.8 192.5M112.2 102.5L187.8 237.5M112.2 102.5L187.8 282.5M112.2 162.5L187.8 102.5M112.2 162.5L187.8 147.5M112.2 162.5L187.8 192.5M112.2 162.5L187.8 237.5M112.2 162.5L187.8 282.5M112.2 222.5L187.8 102.5M112.2 222.5L187.8 147.5M112.2 222.5L187.8 192.5M112.2 222.5L187.8 237.5M112.2 222.5L187.8 282.5M112.2 282.5L187.8 102.5M112.2 282.5L187.8 147.5M112.2 282.5L187.8 192.5M112.2 282.5L187.8 237.5M112.2 282.5L187.8 282.5M221.4 102.5L297 102.5M221.4 102.5L297 147.5M221.4 102.5L297 192.5M221.4 102.5L297 237.5M221.4 102.5L297 282.5M221.4 147.5L297 102.5M221.4 147.5L297 147.5M221.4 147.5L297 192.5M221.4 147.5L297 237.5M221.4 147.5L297 282.5M221.4 192.5L297 102.5M221.4 192.5L297 147.5M221.4 192.5L297 192.5M221.4 192.5L297 237.5M221.4 192.5L297 282.5M221.4 237.5L297 102.5M221.4 237.5L297 147.5M221.4 237.5L297 192.5M221.4 237.5L297 237.5M221.4 237.5L297 282.5M221.4 282.5L297 102.5M221.4 282.5L297 147.5M221.4 282.5L297 192.5M221.4 282.5L297 237.5M221.4 282.5L297 282.5M330.6 102.5L406.2 147.5M330.6 102.5L406.2 237.5M330.6 147.5L406.2 147.5M330.6 147.5L406.2 237.5M330.6 192.5L406.2 147.5M330.6 192.5L406.2 237.5M330.6 237.5L406.2 147.5M330.6 237.5L406.2 237.5M330.6 282.5L406.2 147.5M330.6 282.5L406.2 237.5" stroke="#253047" stroke-width=".8" fill="none"/>
+<text x="40.8" y="107" textLength="285.6" lengthAdjust="spacing"><tspan class="mu">rust</tspan> <tspan class="mu">(○)</tspan>          <tspan class="mu">(○)</tspan>          <tspan class="mu">(○)</tspan></text>
+<text x="192" y="152" textLength="294" lengthAdjust="spacing"><tspan class="mu">(○)</tspan>          <tspan class="mu">(○)</tspan>          <tspan class="mu">(○)</tspan> <tspan class="mu">build</tspan></text>
+<text x="57.6" y="167" textLength="50.4" lengthAdjust="spacing"><tspan class="mu">go</tspan> <tspan class="mu">(○)</tspan></text>
+<text x="192" y="197" textLength="134.4" lengthAdjust="spacing"><tspan class="mu">(○)</tspan>          <tspan class="mu">(○)</tspan></text>
+<text x="32.4" y="227" textLength="75.6" lengthAdjust="spacing"><tspan class="mu">c/c++</tspan> <tspan class="mu">(○)</tspan></text>
+<text x="192" y="242" textLength="285.6" lengthAdjust="spacing"><tspan class="mu">(○)</tspan>          <tspan class="mu">(○)</tspan>          <tspan class="mu">(○)</tspan> <tspan class="mu">ship</tspan></text>
+<text x="49.2" y="287" textLength="277.2" lengthAdjust="spacing"><tspan class="mu">php</tspan> <tspan class="mu">(○)</tspan>          <tspan class="mu">(○)</tspan>          <tspan class="mu">(○)</tspan></text>
+<g class="fr nx nx-0"><text x="40.8" y="107" textLength="294" lengthAdjust="spacing"><tspan class="cy">rust</tspan> <tspan class="pk">(●)</tspan>                          <tspan class="cy">·</tspan></text>
+<text x="334.8" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="343.2" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="242.4" y="167" textLength="159.6" lengthAdjust="spacing"><tspan class="cy">·</tspan>                <tspan class="cy">•●</tspan></text>
+<text x="250.8" y="182" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">•</tspan>              <tspan class="cy">·</tspan></text>
+<text x="183.6" y="197" textLength="84" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan>    <tspan class="cy">●</tspan></text>
+<text x="124.8" y="242" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="141.6" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text></g>
+<g class="fr nx nx-1"><text x="40.8" y="107" textLength="294" lengthAdjust="spacing"><tspan class="cy">rust</tspan> <tspan class="pk">(●)</tspan>                          <tspan class="cy">·</tspan></text>
+<text x="334.8" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="343.2" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="402" y="152" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="385.2" y="167" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="250.8" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="183.6" y="197" textLength="84" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan>    <tspan class="cy">•</tspan></text>
+<text x="259.2" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="133.2" y="242" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="141.6" y="257" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text></g>
+<g class="fr nx nx-2"><text x="40.8" y="107" textLength="67.2" lengthAdjust="spacing"><tspan class="cy">rust</tspan> <tspan class="pk">(●)</tspan></text>
+<text x="334.8" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="343.2" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="351.6" y="152" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">●</tspan>     <tspan class="cy">•</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="393.6" y="167" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="217.2" y="197" textLength="50.4" lengthAdjust="spacing"><tspan class="cy">•●</tspan>   <tspan class="cy">·</tspan></text>
+<text x="259.2" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="267.6" y="227" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="141.6" y="257" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="158.4" y="272" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text></g>
+<g class="fr nx nx-3"><text x="108" y="107" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="343.2" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="351.6" y="152" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">•</tspan>     <tspan class="cy">·</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="360" y="167" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="217.2" y="197" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="259.2" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="267.6" y="227" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="276" y="242" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="150" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="158.4" y="272" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text></g>
+<g class="fr nx nx-4"><text x="108" y="107" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text>
+<text x="351.6" y="152" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>      <tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="360" y="167" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="368.4" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="225.6" y="197" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="276" y="242" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="284.4" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="158.4" y="272" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">·•</tspan>             <tspan class="cy">●</tspan></text>
+<text x="175.2" y="287" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text></g>
+<g class="fr nx nx-5"><text x="108" y="107" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="124.8" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="410.4" y="152" textLength="75.6" lengthAdjust="spacing"><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="360" y="167" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="368.4" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="234" y="197" textLength="151.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan>              <tspan class="cy">●</tspan></text>
+<text x="284.4" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="166.8" y="272" textLength="126" lengthAdjust="spacing"><tspan class="cy">·</tspan>             <tspan class="cy">•</tspan></text>
+<text x="175.2" y="287" textLength="126" lengthAdjust="spacing"><tspan class="cy">•●</tspan>            <tspan class="cy">●</tspan></text></g>
+<g class="fr nx nx-6"><text x="116.4" y="107" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="124.8" y="122" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text>
+<text x="410.4" y="152" textLength="75.6" lengthAdjust="spacing"><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="368.4" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="242.4" y="197" textLength="142.8" lengthAdjust="spacing"><tspan class="cy">·•●</tspan>             <tspan class="cy">•</tspan></text>
+<text x="385.2" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="284.4" y="272" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="175.2" y="287" textLength="151.2" lengthAdjust="spacing"><tspan class="cy">·•</tspan><tspan class="pk">(●)</tspan>         <tspan class="cy">•</tspan><tspan class="pk">(●)</tspan></text></g>
+<g class="fr nx nx-7"><text x="124.8" y="122" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="250.8" y="197" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">·•●</tspan>            <tspan class="cy">·</tspan></text>
+<text x="385.2" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="32.4" y="227" textLength="369.6" lengthAdjust="spacing"><tspan class="cy">c/c++</tspan> <tspan class="pk">(●)</tspan>                                  <tspan class="cy">●</tspan></text>
+<text x="183.6" y="287" textLength="151.2" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan>        <tspan class="cy">·</tspan>   <tspan class="cy">●</tspan></text></g>
+<g class="fr nx nx-8"><text x="133.2" y="122" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="150" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="259.2" y="197" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="385.2" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="32.4" y="227" textLength="369.6" lengthAdjust="spacing"><tspan class="cy">c/c++</tspan> <tspan class="pk">(●)</tspan>                                  <tspan class="cy">•</tspan></text>
+<text x="402" y="242" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="225.6" y="272" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="217.2" y="287" textLength="126" lengthAdjust="spacing"><tspan class="cy">•</tspan>            <tspan class="cy">•●</tspan></text></g>
+<g class="fr nx nx-9"><text x="141.6" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="150" y="137" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text>
+<text x="267.6" y="197" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="108" y="227" textLength="294" lengthAdjust="spacing"><tspan class="cy">●</tspan>                                 <tspan class="cy">·</tspan></text>
+<text x="402" y="242" textLength="75.6" lengthAdjust="spacing"><tspan class="cy">•</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text>
+<text x="234" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="225.6" y="272" textLength="126" lengthAdjust="spacing"><tspan class="cy">•</tspan>             <tspan class="cy">●</tspan></text>
+<text x="217.2" y="287" textLength="126" lengthAdjust="spacing"><tspan class="cy">·</tspan>            <tspan class="cy">·•</tspan></text></g>
+<g class="fr nx nx-10"><text x="150" y="137" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="276" y="197" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="108" y="227" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text>
+<text x="242.4" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">●</tspan>                  <tspan class="cy">·</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text>
+<text x="234" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="225.6" y="272" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>             <tspan class="cy">•●</tspan></text>
+<text x="334.8" y="287" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text></g>
+<g class="fr nx nx-11"><text x="158.4" y="137" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="175.2" y="152" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="284.4" y="197" textLength="42" lengthAdjust="spacing"><tspan class="cy">·•</tspan><tspan class="pk">(●)</tspan></text>
+<text x="108" y="227" textLength="151.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan>              <tspan class="cy">●</tspan></text>
+<text x="242.4" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">•</tspan>                   <tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text>
+<text x="234" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="343.2" y="272" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text></g>
+<g class="fr nx nx-12"><text x="166.8" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="175.2" y="152" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text>
+<text x="292.8" y="197" textLength="42" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan></text>
+<text x="133.2" y="212" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">●</tspan>              <tspan class="cy">●</tspan></text>
+<text x="116.4" y="227" textLength="142.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan>              <tspan class="cy">•</tspan></text>
+<text x="242.4" y="242" textLength="235.2" lengthAdjust="spacing"><tspan class="cy">·</tspan>                   <tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text>
+<text x="368.4" y="257" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text>
+<text x="360" y="272" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text></g>
+<g class="fr nx nx-13"><text x="175.2" y="152" textLength="42" lengthAdjust="spacing"><tspan class="cy">·•</tspan><tspan class="pk">(●)</tspan></text>
+<text x="267.6" y="197" textLength="75.6" lengthAdjust="spacing"><tspan class="cy">●</tspan>      <tspan class="cy">•●</tspan></text>
+<text x="133.2" y="212" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">•●</tspan>             <tspan class="cy">•</tspan></text>
+<text x="124.8" y="227" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>              <tspan class="cy">·</tspan></text>
+<text x="410.4" y="242" textLength="67.2" lengthAdjust="spacing"><tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text>
+<text x="368.4" y="257" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text></g>
+<g class="fr nx nx-14"><text x="40.8" y="107" textLength="67.2" lengthAdjust="spacing"><tspan class="cy">rust</tspan> <tspan class="pk">(●)</tspan></text>
+<text x="183.6" y="152" textLength="42" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan></text>
+<text x="276" y="182" textLength="75.6" lengthAdjust="spacing"><tspan class="cy">●</tspan>       <tspan class="cy">●</tspan></text>
+<text x="267.6" y="197" textLength="75.6" lengthAdjust="spacing"><tspan class="cy">•</tspan>      <tspan class="cy">·•</tspan></text>
+<text x="133.2" y="212" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">·•●</tspan>            <tspan class="cy">·</tspan></text>
+<text x="393.6" y="242" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="376.8" y="257" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text></g>
+<g class="fr nx nx-15"><text x="40.8" y="107" textLength="67.2" lengthAdjust="spacing"><tspan class="cy">rust</tspan> <tspan class="pk">(●)</tspan></text>
+<text x="217.2" y="152" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="225.6" y="167" textLength="67.2" lengthAdjust="spacing"><tspan class="cy">●</tspan>      <tspan class="cy">●</tspan></text>
+<text x="276" y="182" textLength="84" lengthAdjust="spacing"><tspan class="cy">•</tspan>       <tspan class="cy">•●</tspan></text>
+<text x="267.6" y="197" textLength="75.6" lengthAdjust="spacing"><tspan class="cy">·</tspan>       <tspan class="cy">·</tspan></text>
+<text x="141.6" y="212" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="393.6" y="242" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text>
+<text x="385.2" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text></g>
+<g class="fr nx nx-16"><text x="108" y="107" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="217.2" y="152" textLength="84" lengthAdjust="spacing"><tspan class="cy">·</tspan>        <tspan class="cy">●</tspan></text>
+<text x="225.6" y="167" textLength="67.2" lengthAdjust="spacing"><tspan class="cy">•●</tspan>     <tspan class="cy">•</tspan></text>
+<text x="276" y="182" textLength="92.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>       <tspan class="cy">·•●</tspan></text>
+<text x="166.8" y="197" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="150" y="212" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="393.6" y="242" textLength="84" lengthAdjust="spacing"><tspan class="cy">·•</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text></g>
+<g class="fr nx nx-17"><text x="108" y="107" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="116.4" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="292.8" y="152" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">•</tspan><tspan class="pk">(●)</tspan></text>
+<text x="225.6" y="167" textLength="151.2" lengthAdjust="spacing"><tspan class="cy">·•</tspan>     <tspan class="cy">·</tspan>         <tspan class="cy">●</tspan></text>
+<text x="242.4" y="182" textLength="126" lengthAdjust="spacing"><tspan class="cy">●</tspan>            <tspan class="cy">·•</tspan></text>
+<text x="166.8" y="197" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text>
+<text x="158.4" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="402" y="242" textLength="75.6" lengthAdjust="spacing"><tspan class="cy">·</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text></g>
+<g class="fr nx nx-18"><text x="108" y="107" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="116.4" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="124.8" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="292.8" y="152" textLength="42" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan></text>
+<text x="234" y="167" textLength="151.2" lengthAdjust="spacing"><tspan class="cy">·</tspan>               <tspan class="cy">•●</tspan></text>
+<text x="242.4" y="182" textLength="126" lengthAdjust="spacing"><tspan class="cy">•</tspan>             <tspan class="cy">·</tspan></text>
+<text x="166.8" y="197" textLength="92.4" lengthAdjust="spacing"><tspan class="cy">·•●</tspan>       <tspan class="cy">●</tspan></text>
+<text x="410.4" y="242" textLength="67.2" lengthAdjust="spacing"><tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text></g>
+<g class="fr nx nx-19"><text x="116.4" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="124.8" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="133.2" y="152" textLength="201.6" lengthAdjust="spacing"><tspan class="cy">●</tspan>                      <tspan class="cy">•</tspan></text>
+<text x="334.8" y="167" textLength="58.8" lengthAdjust="spacing"><tspan class="cy">●</tspan>   <tspan class="cy">·•●</tspan></text>
+<text x="242.4" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="175.2" y="197" textLength="92.4" lengthAdjust="spacing"><tspan class="cy">·•</tspan><tspan class="pk">(●)</tspan>    <tspan class="cy">•●</tspan></text>
+<text x="410.4" y="242" textLength="67.2" lengthAdjust="spacing"><tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text></g>
+<g class="fr nx nx-20"><text x="124.8" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="133.2" y="152" textLength="268.8" lengthAdjust="spacing"><tspan class="cy">•</tspan>                      <tspan class="cy">·</tspan>       <tspan class="cy">●</tspan></text>
+<text x="141.6" y="167" textLength="252" lengthAdjust="spacing"><tspan class="cy">●</tspan>                      <tspan class="cy">•●</tspan>   <tspan class="cy">·•</tspan></text>
+<text x="183.6" y="197" textLength="84" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan>   <tspan class="cy">·•</tspan></text>
+<text x="267.6" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="49.2" y="287" textLength="58.8" lengthAdjust="spacing"><tspan class="cy">php</tspan> <tspan class="pk">(●)</tspan></text></g>
+<g class="fr nx nx-21"><text x="133.2" y="152" textLength="277.2" lengthAdjust="spacing"><tspan class="cy">·</tspan>                      <tspan class="cy">·</tspan>       <tspan class="cy">•●</tspan></text>
+<text x="141.6" y="167" textLength="252" lengthAdjust="spacing"><tspan class="cy">•</tspan>                      <tspan class="cy">•●</tspan>    <tspan class="cy">·</tspan></text>
+<text x="150" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="183.6" y="197" textLength="84" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan>    <tspan class="cy">·</tspan></text>
+<text x="267.6" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="276" y="227" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="49.2" y="287" textLength="58.8" lengthAdjust="spacing"><tspan class="cy">php</tspan> <tspan class="pk">(●)</tspan></text></g>
+<g class="fr nx nx-22"><text x="393.6" y="152" textLength="92.4" lengthAdjust="spacing"><tspan class="cy">·•</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="141.6" y="167" textLength="210" lengthAdjust="spacing"><tspan class="cy">·</tspan>                      <tspan class="cy">·•</tspan></text>
+<text x="150" y="182" textLength="210" lengthAdjust="spacing"><tspan class="cy">•</tspan>                       <tspan class="cy">●</tspan></text>
+<text x="158.4" y="197" textLength="75.6" lengthAdjust="spacing"><tspan class="cy">●</tspan>      <tspan class="cy">•●</tspan></text>
+<text x="267.6" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="276" y="227" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text>
+<text x="108" y="287" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text></g>
+<g class="fr nx nx-23"><text x="402" y="152" textLength="84" lengthAdjust="spacing"><tspan class="cy">·</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="343.2" y="167" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="150" y="182" textLength="210" lengthAdjust="spacing"><tspan class="cy">·</tspan>                       <tspan class="cy">•</tspan></text>
+<text x="158.4" y="197" textLength="210" lengthAdjust="spacing"><tspan class="cy">•</tspan>      <tspan class="cy">·•</tspan>               <tspan class="cy">●</tspan></text>
+<text x="166.8" y="212" textLength="75.6" lengthAdjust="spacing"><tspan class="cy">●</tspan>       <tspan class="cy">●</tspan></text>
+<text x="276" y="227" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="292.8" y="242" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="116.4" y="272" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="108" y="287" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text></g>
+<g class="fr nx nx-24"><text x="410.4" y="152" textLength="75.6" lengthAdjust="spacing"><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="351.6" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="158.4" y="197" textLength="218.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>       <tspan class="cy">·</tspan>               <tspan class="cy">•●</tspan></text>
+<text x="166.8" y="212" textLength="84" lengthAdjust="spacing"><tspan class="cy">•</tspan>       <tspan class="cy">•●</tspan></text>
+<text x="175.2" y="227" textLength="117.6" lengthAdjust="spacing"><tspan class="cy">●</tspan>            <tspan class="cy">·</tspan></text>
+<text x="292.8" y="242" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">•</tspan><tspan class="pk">(●)</tspan></text>
+<text x="124.8" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="116.4" y="272" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="108" y="287" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text></g>
+<g class="fr nx nx-25"><text x="410.4" y="152" textLength="75.6" lengthAdjust="spacing"><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="360" y="197" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="166.8" y="212" textLength="218.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>       <tspan class="cy">·•●</tspan>              <tspan class="cy">●</tspan></text>
+<text x="175.2" y="227" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="124.8" y="242" textLength="210" lengthAdjust="spacing"><tspan class="cy">●</tspan>      <tspan class="cy">●</tspan>            <tspan class="cy">·</tspan>   <tspan class="cy">●</tspan></text>
+<text x="124.8" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="116.4" y="272" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text></g>
+<g class="fr nx nx-26"><text x="410.4" y="152" textLength="75.6" lengthAdjust="spacing"><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="368.4" y="197" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="242.4" y="212" textLength="142.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan>              <tspan class="cy">•</tspan></text>
+<text x="133.2" y="227" textLength="260.4" lengthAdjust="spacing"><tspan class="cy">●</tspan>    <tspan class="cy">·</tspan>         <tspan class="cy">●</tspan>        <tspan class="cy">●</tspan>     <tspan class="cy">●</tspan></text>
+<text x="124.8" y="242" textLength="210" lengthAdjust="spacing"><tspan class="cy">•</tspan>      <tspan class="cy">•</tspan><tspan class="pk">(●)</tspan>             <tspan class="cy">•</tspan></text>
+<text x="124.8" y="257" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text></g>
+<g class="fr nx nx-27"><text x="57.6" y="167" textLength="50.4" lengthAdjust="spacing"><tspan class="cy">go</tspan> <tspan class="pk">(●)</tspan></text>
+<text x="141.6" y="212" textLength="243.6" lengthAdjust="spacing"><tspan class="cy">●</tspan>            <tspan class="cy">·</tspan>              <tspan class="cy">·</tspan></text>
+<text x="133.2" y="227" textLength="268.8" lengthAdjust="spacing"><tspan class="cy">•</tspan>              <tspan class="cy">•●</tspan>       <tspan class="cy">•●</tspan>    <tspan class="cy">•●</tspan></text>
+<text x="124.8" y="242" textLength="210" lengthAdjust="spacing"><tspan class="cy">·</tspan>      <tspan class="cy">·</tspan>   <tspan class="cy">●</tspan>            <tspan class="cy">·</tspan></text></g>
+<g class="fr nx nx-28"><text x="57.6" y="167" textLength="50.4" lengthAdjust="spacing"><tspan class="cy">go</tspan> <tspan class="pk">(●)</tspan></text>
+<text x="150" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="150" y="197" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="141.6" y="212" textLength="218.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>                        <tspan class="cy">●</tspan></text>
+<text x="225.6" y="227" textLength="176.4" lengthAdjust="spacing"><tspan class="cy">●</tspan>   <tspan class="cy">·•●</tspan>      <tspan class="cy">·•</tspan>    <tspan class="cy">·•</tspan></text>
+<text x="217.2" y="242" textLength="193.2" lengthAdjust="spacing"><tspan class="cy">•</tspan>                     <tspan class="cy">●</tspan></text></g>
+<g class="fr nx nx-29"><text x="108" y="167" textLength="58.8" lengthAdjust="spacing"><tspan class="cy">●</tspan>     <tspan class="cy">●</tspan></text>
+<text x="150" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="150" y="197" textLength="218.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>                        <tspan class="cy">●</tspan></text>
+<text x="234" y="212" textLength="126" lengthAdjust="spacing"><tspan class="cy">●</tspan>             <tspan class="cy">•</tspan></text>
+<text x="225.6" y="227" textLength="176.4" lengthAdjust="spacing"><tspan class="cy">•</tspan>    <tspan class="cy">·•</tspan>       <tspan class="cy">·</tspan>     <tspan class="cy">·</tspan></text>
+<text x="217.2" y="242" textLength="260.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>       <tspan class="cy">●</tspan>             <tspan class="cy">•</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text></g>
+<g class="fr nx nx-30"><text x="166.8" y="152" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="108" y="167" textLength="58.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan>    <tspan class="cy">•</tspan></text>
+<text x="150" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="242.4" y="197" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">●</tspan>             <tspan class="cy">•●</tspan></text>
+<text x="234" y="212" textLength="126" lengthAdjust="spacing"><tspan class="cy">•</tspan>             <tspan class="cy">·</tspan></text>
+<text x="225.6" y="227" textLength="58.8" lengthAdjust="spacing"><tspan class="cy">·</tspan>     <tspan class="cy">·</tspan></text>
+<text x="284.4" y="242" textLength="193.2" lengthAdjust="spacing"><tspan class="cy">•●</tspan>            <tspan class="cy">·</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text></g>
+<g class="fr nx nx-31"><text x="175.2" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="166.8" y="152" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="108" y="167" textLength="58.8" lengthAdjust="spacing"><tspan class="cy">·•●</tspan>   <tspan class="cy">·</tspan></text>
+<text x="250.8" y="182" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">●</tspan>              <tspan class="cy">●</tspan></text>
+<text x="242.4" y="197" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">•</tspan>             <tspan class="cy">·•</tspan></text>
+<text x="234" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="284.4" y="242" textLength="193.2" lengthAdjust="spacing"><tspan class="cy">·•</tspan><tspan class="pk">(●)</tspan>          <tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text></g>
+<g class="fr nx nx-32"><text x="175.2" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="175.2" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="166.8" y="152" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="116.4" y="167" textLength="277.2" lengthAdjust="spacing"><tspan class="cy">·•</tspan>               <tspan class="cy">●</tspan>              <tspan class="cy">●</tspan></text>
+<text x="133.2" y="182" textLength="252" lengthAdjust="spacing"><tspan class="cy">●</tspan>             <tspan class="cy">•</tspan>              <tspan class="cy">•</tspan></text>
+<text x="242.4" y="197" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>              <tspan class="cy">·</tspan></text>
+<text x="292.8" y="242" textLength="184.8" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan>         <tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text></g>
+<g class="fr nx nx-33"><text x="183.6" y="107" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="175.2" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="175.2" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="267.6" y="152" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="124.8" y="167" textLength="277.2" lengthAdjust="spacing"><tspan class="cy">·</tspan>               <tspan class="cy">•</tspan>              <tspan class="cy">•●</tspan></text>
+<text x="133.2" y="182" textLength="252" lengthAdjust="spacing"><tspan class="cy">•●</tspan>            <tspan class="cy">·</tspan>              <tspan class="cy">·</tspan></text>
+<text x="334.8" y="227" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="326.4" y="242" textLength="151.2" lengthAdjust="spacing"><tspan class="cy">•</tspan>         <tspan class="pk">(●)</tspan> <tspan class="pk b">ship</tspan></text></g>
+<g class="fr nx nx-34"><text x="183.6" y="107" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">•</tspan><tspan class="pk">(●)</tspan></text>
+<text x="175.2" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="276" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="267.6" y="152" textLength="142.8" lengthAdjust="spacing"><tspan class="cy">•</tspan>               <tspan class="cy">●</tspan></text>
+<text x="259.2" y="167" textLength="142.8" lengthAdjust="spacing"><tspan class="cy">·</tspan>              <tspan class="cy">·•</tspan></text>
+<text x="133.2" y="182" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="32.4" y="227" textLength="319.2" lengthAdjust="spacing"><tspan class="cy">c/c++</tspan> <tspan class="pk">(●)</tspan>                           <tspan class="cy">•●</tspan></text>
+<text x="326.4" y="242" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text></g>
+<g class="fr nx nx-35"><text x="183.6" y="107" textLength="42" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan></text>
+<text x="284.4" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="276" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="267.6" y="152" textLength="218.4" lengthAdjust="spacing"><tspan class="cy">·</tspan>               <tspan class="cy">•</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="393.6" y="167" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="141.6" y="182" textLength="25.2" lengthAdjust="spacing"><tspan class="cy">·•●</tspan></text>
+<text x="351.6" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="32.4" y="227" textLength="319.2" lengthAdjust="spacing"><tspan class="cy">c/c++</tspan> <tspan class="pk">(●)</tspan>                           <tspan class="cy">·•</tspan></text></g>
+<g class="fr nx nx-36"><text x="217.2" y="107" textLength="84" lengthAdjust="spacing"><tspan class="cy">•</tspan>        <tspan class="cy">●</tspan></text>
+<text x="225.6" y="122" textLength="67.2" lengthAdjust="spacing"><tspan class="cy">●</tspan>      <tspan class="cy">•</tspan></text>
+<text x="276" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="402" y="152" textLength="84" lengthAdjust="spacing"><tspan class="cy">·</tspan><tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="150" y="182" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="166.8" y="197" textLength="201.6" lengthAdjust="spacing"><tspan class="cy">●</tspan>                      <tspan class="cy">●</tspan></text>
+<text x="351.6" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="108" y="227" textLength="243.6" lengthAdjust="spacing"><tspan class="cy">●</tspan>                           <tspan class="cy">·</tspan></text></g>
+<g class="fr nx nx-37"><text x="292.8" y="107" textLength="33.6" lengthAdjust="spacing"><tspan class="cy">•</tspan><tspan class="pk">(●)</tspan></text>
+<text x="225.6" y="122" textLength="67.2" lengthAdjust="spacing"><tspan class="cy">·</tspan>      <tspan class="cy">·</tspan></text>
+<text x="234" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="234" y="152" textLength="252" lengthAdjust="spacing"><tspan class="cy">●</tspan>                    <tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="158.4" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="166.8" y="197" textLength="210" lengthAdjust="spacing"><tspan class="cy">•●</tspan>                     <tspan class="cy">•●</tspan></text>
+<text x="351.6" y="212" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="108" y="227" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text></g>
+<g class="fr nx nx-38"><text x="292.8" y="107" textLength="42" lengthAdjust="spacing"><tspan class="cy">·</tspan>   <tspan class="cy">●</tspan></text>
+<text x="234" y="137" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="234" y="152" textLength="252" lengthAdjust="spacing"><tspan class="cy">•</tspan>                    <tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="242.4" y="167" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="376.8" y="182" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="166.8" y="197" textLength="210" lengthAdjust="spacing"><tspan class="cy">·•●</tspan>                    <tspan class="cy">·•</tspan></text>
+<text x="108" y="227" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">·•</tspan></text>
+<text x="124.8" y="242" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text></g>
+<g class="fr nx nx-39"><text x="326.4" y="107" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">•</tspan></text>
+<text x="334.8" y="122" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">●</tspan></text>
+<text x="234" y="152" textLength="252" lengthAdjust="spacing"><tspan class="cy">·</tspan>                    <tspan class="pk">(●)</tspan> <tspan class="pk b">build</tspan></text>
+<text x="242.4" y="167" textLength="151.2" lengthAdjust="spacing"><tspan class="cy">•</tspan>                <tspan class="cy">●</tspan></text>
+<text x="250.8" y="182" textLength="134.4" lengthAdjust="spacing"><tspan class="cy">●</tspan>              <tspan class="cy">•</tspan></text>
+<text x="175.2" y="197" textLength="201.6" lengthAdjust="spacing"><tspan class="cy">·•</tspan><tspan class="pk">(●)</tspan>                  <tspan class="cy">·</tspan></text>
+<text x="116.4" y="227" textLength="8.4" lengthAdjust="spacing"><tspan class="cy">·</tspan></text>
+<text x="124.8" y="242" textLength="16.8" lengthAdjust="spacing"><tspan class="cy">•●</tspan></text></g>
+<text x="590" y="92" textLength="243.6" lengthAdjust="spacing" class="mu">to kn bu no to do is no to kn</text>
+<text x="564.8" y="111" textLength="16.8" lengthAdjust="spacing" class="mu">to</text>
+<text x="548" y="130" textLength="33.6" lengthAdjust="spacing" class="mu">know</text>
+<text x="556.4" y="149" textLength="25.2" lengthAdjust="spacing" class="mu">but</text>
+<text x="556.4" y="168" textLength="25.2" lengthAdjust="spacing" class="mu">not</text>
+<text x="564.8" y="187" textLength="16.8" lengthAdjust="spacing" class="mu">to</text>
+<text x="564.8" y="206" textLength="16.8" lengthAdjust="spacing" class="mu">do</text>
+<text x="564.8" y="225" textLength="16.8" lengthAdjust="spacing" class="mu">is</text>
+<text x="556.4" y="244" textLength="25.2" lengthAdjust="spacing" class="mu">not</text>
+<text x="564.8" y="263" textLength="16.8" lengthAdjust="spacing" class="mu">to</text>
+<text x="548" y="282" textLength="33.6" lengthAdjust="spacing" class="mu">know</text>
+<g class="fr hd hd-0"><text x="648.8" y="62" textLength="151.2" lengthAdjust="spacing"><tspan class="mu">layer 3 · head </tspan><tspan class="fg">1/8</tspan></text>
+<text x="590" y="111" textLength="16.8" lengthAdjust="spacing"><tspan class="h4">██</tspan></text>
+<text x="590" y="130" textLength="42" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="149" textLength="67.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="168" textLength="92.4" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="187" textLength="117.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="206" textLength="142.8" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="225" textLength="168" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="244" textLength="193.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="263" textLength="218.4" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="282" textLength="243.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="548" y="302.9" textLength="193.2" lengthAdjust="spacing"><tspan class="mu">pattern: </tspan><tspan class="fg">previous token</tspan></text></g>
+<g class="fr hd hd-1"><text x="648.8" y="62" textLength="151.2" lengthAdjust="spacing"><tspan class="mu">layer 3 · head </tspan><tspan class="fg">2/8</tspan></text>
+<text x="590" y="111" textLength="16.8" lengthAdjust="spacing"><tspan class="h4">██</tspan></text>
+<text x="590" y="130" textLength="42" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="149" textLength="67.2" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="590" y="168" textLength="92.4" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="187" textLength="117.6" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="206" textLength="142.8" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="225" textLength="168" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="244" textLength="193.2" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="263" textLength="218.4" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="282" textLength="243.6" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h1">░░</tspan></text>
+<text x="548" y="302.9" textLength="193.2" lengthAdjust="spacing"><tspan class="mu">pattern: </tspan><tspan class="fg">attention sink</tspan></text></g>
+<g class="fr hd hd-2"><text x="648.8" y="62" textLength="151.2" lengthAdjust="spacing"><tspan class="mu">layer 3 · head </tspan><tspan class="fg">3/8</tspan></text>
+<text x="590" y="111" textLength="16.8" lengthAdjust="spacing"><tspan class="h4">██</tspan></text>
+<text x="590" y="130" textLength="42" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="149" textLength="67.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="168" textLength="92.4" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="187" textLength="117.6" lengthAdjust="spacing"><tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan></text>
+<text x="590" y="206" textLength="142.8" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="225" textLength="168" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="244" textLength="193.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan></text>
+<text x="590" y="263" textLength="218.4" lengthAdjust="spacing"><tspan class="h2">▒▒</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="590" y="282" textLength="243.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="548" y="302.9" textLength="168" lengthAdjust="spacing"><tspan class="mu">pattern: </tspan><tspan class="fg">token match</tspan></text></g>
+<g class="fr hd hd-3"><text x="648.8" y="62" textLength="151.2" lengthAdjust="spacing"><tspan class="mu">layer 3 · head </tspan><tspan class="fg">4/8</tspan></text>
+<text x="590" y="111" textLength="16.8" lengthAdjust="spacing"><tspan class="h4">██</tspan></text>
+<text x="590" y="130" textLength="42" lengthAdjust="spacing"><tspan class="h2">▒▒</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="149" textLength="67.2" lengthAdjust="spacing"><tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="168" textLength="92.4" lengthAdjust="spacing"><tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h3">▓▓</tspan></text>
+<text x="590" y="187" textLength="117.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="206" textLength="142.8" lengthAdjust="spacing"><tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="590" y="225" textLength="168" lengthAdjust="spacing"><tspan class="h2">▒▒</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="590" y="244" textLength="193.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="263" textLength="218.4" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="282" textLength="243.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan></text>
+<text x="548" y="302.9" textLength="151.2" lengthAdjust="spacing"><tspan class="mu">pattern: </tspan><tspan class="fg">induction</tspan></text></g>
+<g class="fr hd hd-4"><text x="648.8" y="62" textLength="151.2" lengthAdjust="spacing"><tspan class="mu">layer 3 · head </tspan><tspan class="fg">5/8</tspan></text>
+<text x="590" y="111" textLength="16.8" lengthAdjust="spacing"><tspan class="h4">██</tspan></text>
+<text x="590" y="130" textLength="42" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="149" textLength="67.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="168" textLength="92.4" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="187" textLength="117.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="206" textLength="142.8" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="225" textLength="168" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="244" textLength="193.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="263" textLength="218.4" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="282" textLength="243.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="548" y="302.9" textLength="142.8" lengthAdjust="spacing"><tspan class="mu">pattern: </tspan><tspan class="fg">diagonal</tspan></text></g>
+<g class="fr hd hd-5"><text x="648.8" y="62" textLength="151.2" lengthAdjust="spacing"><tspan class="mu">layer 3 · head </tspan><tspan class="fg">6/8</tspan></text>
+<text x="590" y="111" textLength="16.8" lengthAdjust="spacing"><tspan class="h4">██</tspan></text>
+<text x="590" y="130" textLength="42" lengthAdjust="spacing"><tspan class="h3">▓▓</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="149" textLength="67.2" lengthAdjust="spacing"><tspan class="h2">▒▒</tspan> <tspan class="h3">▓▓</tspan> <tspan class="h3">▓▓</tspan></text>
+<text x="590" y="168" textLength="92.4" lengthAdjust="spacing"><tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="590" y="187" textLength="117.6" lengthAdjust="spacing"><tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h1">░░</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="590" y="206" textLength="142.8" lengthAdjust="spacing"><tspan class="h1">░░</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h1">░░</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="590" y="225" textLength="168" lengthAdjust="spacing"><tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h1">░░</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="590" y="244" textLength="193.2" lengthAdjust="spacing"><tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="590" y="263" textLength="218.4" lengthAdjust="spacing"><tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="282" textLength="243.6" lengthAdjust="spacing"><tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan></text>
+<text x="548" y="302.9" textLength="184.8" lengthAdjust="spacing"><tspan class="mu">pattern: </tspan><tspan class="fg">broad context</tspan></text></g>
+<g class="fr hd hd-6"><text x="648.8" y="62" textLength="151.2" lengthAdjust="spacing"><tspan class="mu">layer 3 · head </tspan><tspan class="fg">7/8</tspan></text>
+<text x="590" y="111" textLength="16.8" lengthAdjust="spacing"><tspan class="h4">██</tspan></text>
+<text x="590" y="130" textLength="42" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="149" textLength="67.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="168" textLength="92.4" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="187" textLength="117.6" lengthAdjust="spacing"><tspan class="h1">░░</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="206" textLength="142.8" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan></text>
+<text x="590" y="225" textLength="168" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="244" textLength="193.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="263" textLength="218.4" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="282" textLength="243.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h2">▒▒</tspan></text>
+<text x="548" y="302.9" textLength="117.6" lengthAdjust="spacing"><tspan class="mu">pattern: </tspan><tspan class="fg">verbs</tspan></text></g>
+<g class="fr hd hd-7"><text x="648.8" y="62" textLength="151.2" lengthAdjust="spacing"><tspan class="mu">layer 3 · head </tspan><tspan class="fg">8/8</tspan></text>
+<text x="590" y="111" textLength="16.8" lengthAdjust="spacing"><tspan class="h4">██</tspan></text>
+<text x="590" y="130" textLength="42" lengthAdjust="spacing"><tspan class="h3">▓▓</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="149" textLength="67.2" lengthAdjust="spacing"><tspan class="h3">▓▓</tspan> <tspan class="h2">▒▒</tspan> <tspan class="h3">▓▓</tspan></text>
+<text x="590" y="168" textLength="92.4" lengthAdjust="spacing"><tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h4">██</tspan></text>
+<text x="590" y="187" textLength="117.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="206" textLength="142.8" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="225" textLength="168" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h4">██</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan> <tspan class="h1">░░</tspan></text>
+<text x="590" y="244" textLength="193.2" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan></text>
+<text x="590" y="263" textLength="218.4" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan></text>
+<text x="590" y="282" textLength="243.6" lengthAdjust="spacing"><tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan> <tspan class="h3">▓▓</tspan> <tspan class="dm">··</tspan> <tspan class="dm">··</tspan></text>
+<text x="548" y="302.9" textLength="142.8" lengthAdjust="spacing"><tspan class="mu">pattern: </tspan><tspan class="fg">negation</tspan></text></g>
+<text x="24" y="338" textLength="814.8" lengthAdjust="spacing"><tspan class="dm">── </tspan><tspan class="cy">sampler</tspan><tspan class="dm"> ── </tspan><tspan class="mu">temperature 0.7</tspan><tspan class="dm"> ── </tspan><tspan class="mu">top_p 0.9</tspan><tspan class="dm"> ── </tspan><tspan class="mu">seed 42</tspan><tspan class="dm"> </tspan><tspan class="dm">───────────────────────────────────────────</tspan></text>
+<text x="24" y="390" textLength="8.4" lengthAdjust="spacing"><tspan class="cy b">&gt;</tspan></text>
+<g class="an k1"><text x="40.8" y="390" textLength="310.8" lengthAdjust="spacing">To know but not to do is not to know.</text>
+<g clip-path="url(#c1)"><g class="an k0 cover"><rect x="40.8" y="375.5" width="319.2" height="19.5" fill="#0b0f17"/><rect x="40.8" y="377.5" width="8.4" height="16" class="cy blink"/></g></g></g>
+<g class="an k2 tr"><text x="24" y="364" textLength="411.6" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">To</tspan><tspan class="fg"> 0.83 </tspan><tspan class="cy">███████</tspan>   <tspan class="mu">Be</tspan><tspan class="dm"> 0.11 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">Build</tspan><tspan class="dm"> 0.02 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k3 tr"><text x="24" y="364" textLength="436.8" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">know</tspan><tspan class="fg"> 0.51 </tspan><tspan class="cy">████</tspan>   <tspan class="mu">learn</tspan><tspan class="dm"> 0.33 </tspan><tspan class="dm">███</tspan>   <tspan class="mu">ship</tspan><tspan class="dm"> 0.08 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k4 tr"><text x="24" y="364" textLength="403.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">but</tspan><tspan class="fg"> 0.88 </tspan><tspan class="cy">███████</tspan>   <tspan class="mu">is</tspan><tspan class="dm"> 0.08 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">and</tspan><tspan class="dm"> 0.01 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k5 tr"><text x="24" y="364" textLength="420" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">not</tspan><tspan class="fg"> 0.56 </tspan><tspan class="cy">████</tspan>   <tspan class="mu">never</tspan><tspan class="dm"> 0.26 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">fail</tspan><tspan class="dm"> 0.07 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k6 tr"><text x="24" y="364" textLength="378" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">to</tspan><tspan class="fg"> 0.56 </tspan><tspan class="cy">████</tspan>   <tspan class="mu">is</tspan><tspan class="dm"> 0.20 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">yet</tspan><tspan class="dm"> 0.10 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k7 tr"><text x="24" y="364" textLength="403.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">do</tspan><tspan class="fg"> 0.73 </tspan><tspan class="cy">██████</tspan>   <tspan class="mu">act</tspan><tspan class="dm"> 0.17 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">ship</tspan><tspan class="dm"> 0.05 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k8 tr"><text x="24" y="364" textLength="411.6" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">is</tspan><tspan class="fg"> 0.80 </tspan><tspan class="cy">██████</tspan>   <tspan class="mu">means</tspan><tspan class="dm"> 0.13 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">&#39;=&#39;</tspan><tspan class="dm"> 0.02 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k9 tr"><text x="24" y="364" textLength="403.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">not</tspan><tspan class="fg"> 0.60 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">to</tspan><tspan class="dm"> 0.19 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">only</tspan><tspan class="dm"> 0.11 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k10 tr"><text x="24" y="364" textLength="436.8" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">to</tspan><tspan class="fg"> 0.55 </tspan><tspan class="cy">████</tspan>   <tspan class="mu">really</tspan><tspan class="dm"> 0.32 </tspan><tspan class="dm">███</tspan>   <tspan class="mu">truly</tspan><tspan class="dm"> 0.04 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k11 tr"><text x="24" y="364" textLength="411.6" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">know</tspan><tspan class="fg"> 0.66 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">learn</tspan><tspan class="dm"> 0.18 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">be</tspan><tspan class="dm"> 0.05 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k12 tr"><text x="24" y="364" textLength="403.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">&#39;.&#39;</tspan><tspan class="fg"> 0.71 </tspan><tspan class="cy">██████</tspan>   <tspan class="mu">&#39;!&#39;</tspan><tspan class="dm"> 0.16 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">&#39;…&#39;</tspan><tspan class="dm"> 0.06 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k13"><text x="24" y="364" textLength="235.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="pk b">&lt;|eos|&gt;</tspan><tspan class="fg"> 0.97 </tspan><tspan class="pk">████████</tspan></text></g>
+<g class="an k15 tr"><text x="40.8" y="390" textLength="352.8" lengthAdjust="spacing">High QPS, fine-grained locks, zero panics.</text>
+<g clip-path="url(#c2)"><g class="an k14 cover"><rect x="40.8" y="375.5" width="361.2" height="19.5" fill="#0b0f17"/><rect x="40.8" y="377.5" width="8.4" height="16" class="cy blink"/></g></g></g>
+<g class="an k16 tr"><text x="24" y="364" textLength="420" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">High</tspan><tspan class="fg"> 0.80 </tspan><tspan class="cy">██████</tspan>   <tspan class="mu">Low</tspan><tspan class="dm"> 0.12 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">Zero</tspan><tspan class="dm"> 0.02 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k17 tr"><text x="24" y="364" textLength="537.6" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">QPS</tspan><tspan class="fg"> 0.81 </tspan><tspan class="cy">██████</tspan>   <tspan class="mu">availability</tspan><tspan class="dm"> 0.08 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">throughput</tspan><tspan class="dm"> 0.06 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k18 tr"><text x="24" y="364" textLength="386.4" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">&#39;,&#39;</tspan><tspan class="fg"> 0.68 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">and</tspan><tspan class="dm"> 0.17 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">at</tspan><tspan class="dm"> 0.05 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k19 tr"><text x="24" y="364" textLength="445.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">fine</tspan><tspan class="fg"> 0.67 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">sharded</tspan><tspan class="dm"> 0.17 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">lock</tspan><tspan class="dm"> 0.08 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k20 tr"><text x="24" y="364" textLength="487.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">-grained</tspan><tspan class="fg"> 0.64 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">-tuned</tspan><tspan class="dm"> 0.26 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">print</tspan><tspan class="dm"> 0.04 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k21 tr"><text x="24" y="364" textLength="478.8" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">locks</tspan><tspan class="fg"> 0.67 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">shards</tspan><tspan class="dm"> 0.23 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">control</tspan><tspan class="dm"> 0.04 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k22 tr"><text x="24" y="364" textLength="403.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">&#39;,&#39;</tspan><tspan class="fg"> 0.61 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">and</tspan><tspan class="dm"> 0.20 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">&#39;.&#39;</tspan><tspan class="dm"> 0.05 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k23 tr"><text x="24" y="364" textLength="411.6" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">zero</tspan><tspan class="fg"> 0.83 </tspan><tspan class="cy">███████</tspan>   <tspan class="mu">no</tspan><tspan class="dm"> 0.11 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">few</tspan><tspan class="dm"> 0.02 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k24 tr"><text x="24" y="364" textLength="462" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">panics</tspan><tspan class="fg"> 0.68 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">GC</tspan><tspan class="dm"> 0.22 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">downtime</tspan><tspan class="dm"> 0.03 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k25 tr"><text x="24" y="364" textLength="403.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">&#39;.&#39;</tspan><tspan class="fg"> 0.53 </tspan><tspan class="cy">████</tspan>   <tspan class="mu">&#39;!&#39;</tspan><tspan class="dm"> 0.27 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">ever</tspan><tspan class="dm"> 0.06 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k26 tr"><text x="24" y="364" textLength="235.2" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="pk b">&lt;|eos|&gt;</tspan><tspan class="fg"> 0.97 </tspan><tspan class="pk">████████</tspan></text></g>
+<g class="an k28 tr"><text x="40.8" y="390" textLength="478.8" lengthAdjust="spacing">Distributed systems are neural nets that page you at 3am.</text>
+<g clip-path="url(#c3)"><g class="an k27 cover"><rect x="40.8" y="375.5" width="487.2" height="19.5" fill="#0b0f17"/><rect x="40.8" y="377.5" width="8.4" height="16" class="cy blink"/></g></g></g>
+<g class="an k29 tr"><text x="24" y="364" textLength="520.8" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">Distributed</tspan><tspan class="fg"> 0.65 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">Neural</tspan><tspan class="dm"> 0.25 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">Modern</tspan><tspan class="dm"> 0.04 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k30 tr"><text x="24" y="364" textLength="495.6" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">systems</tspan><tspan class="fg"> 0.71 </tspan><tspan class="cy">██████</tspan>   <tspan class="mu">storage</tspan><tspan class="dm"> 0.15 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">brains</tspan><tspan class="dm"> 0.03 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k31 tr"><text x="24" y="364" textLength="436.8" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">are</tspan><tspan class="fg"> 0.78 </tspan><tspan class="cy">██████</tspan>   <tspan class="mu">need</tspan><tspan class="dm"> 0.13 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">become</tspan><tspan class="dm"> 0.05 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k32 tr"><text x="24" y="364" textLength="462" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">neural</tspan><tspan class="fg"> 0.50 </tspan><tspan class="cy">████</tspan>   <tspan class="mu">just</tspan><tspan class="dm"> 0.36 </tspan><tspan class="dm">███</tspan>   <tspan class="mu">living</tspan><tspan class="dm"> 0.07 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k33 tr"><text x="24" y="364" textLength="504" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">nets</tspan><tspan class="fg"> 0.69 </tspan><tspan class="cy">██████</tspan>   <tspan class="mu">networks</tspan><tspan class="dm"> 0.21 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">circuits</tspan><tspan class="dm"> 0.03 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k34 tr"><text x="24" y="364" textLength="428.4" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">that</tspan><tspan class="fg"> 0.65 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">with</tspan><tspan class="dm"> 0.16 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">which</tspan><tspan class="dm"> 0.06 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k35 tr"><text x="24" y="364" textLength="428.4" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">page</tspan><tspan class="fg"> 0.70 </tspan><tspan class="cy">██████</tspan>   <tspan class="mu">wake</tspan><tspan class="dm"> 0.13 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">call</tspan><tspan class="dm"> 0.10 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k36 tr"><text x="24" y="364" textLength="428.4" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">you</tspan><tspan class="fg"> 0.54 </tspan><tspan class="cy">████</tspan>   <tspan class="mu">ops</tspan><tspan class="dm"> 0.29 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">on-call</tspan><tspan class="dm"> 0.10 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k37 tr"><text x="24" y="364" textLength="420" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">at</tspan><tspan class="fg"> 0.85 </tspan><tspan class="cy">███████</tspan>   <tspan class="mu">around</tspan><tspan class="dm"> 0.09 </tspan><tspan class="dm">█</tspan>   <tspan class="mu">by</tspan><tspan class="dm"> 0.02 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k38 tr"><text x="24" y="364" textLength="352.8" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">3</tspan><tspan class="fg"> 0.57 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">2</tspan><tspan class="dm"> 0.30 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">4</tspan><tspan class="dm"> 0.06 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k39 tr"><text x="24" y="364" textLength="394.8" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">am</tspan><tspan class="fg"> 0.52 </tspan><tspan class="cy">████</tspan>   <tspan class="mu">:00</tspan><tspan class="dm"> 0.28 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">a.m.</tspan><tspan class="dm"> 0.07 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k40 tr"><text x="24" y="364" textLength="420" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="cy b">&#39;.&#39;</tspan><tspan class="fg"> 0.68 </tspan><tspan class="cy">█████</tspan>   <tspan class="mu">&#39;!&#39;</tspan><tspan class="dm"> 0.22 </tspan><tspan class="dm">██</tspan>   <tspan class="mu">daily</tspan><tspan class="dm"> 0.03 </tspan><tspan class="dm">█</tspan></text></g>
+<g class="an k41 tr"><text x="24" y="364" textLength="226.8" lengthAdjust="spacing"><tspan class="mu">next › </tspan><tspan class="pk b">&lt;|eos|&gt;</tspan><tspan class="fg"> 0.91 </tspan><tspan class="pk">███████</tspan></text></g>
+<g clip-path="url(#win)"><rect width="880" height="416" fill="url(#glow)"/><rect width="880" height="416" fill="url(#scan)"/></g><rect x=".5" y=".5" width="879" height="415" rx="11.5" fill="none" stroke="#253047"/>
+</svg>
